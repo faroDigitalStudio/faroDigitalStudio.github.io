@@ -1,12 +1,19 @@
+<!--
+  File: index.html
+  Project: Faro website 
+  Created: 09.25.2025 
+  Updated: 09.28.2025
+  Author: Faro Digital Studio
+-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Maundy Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Faro Digital Studio — Coming Soon</title>
+  <meta name="description" content="Branding, web, and content systems for founders who want momentum. Faro Digital Studio — Lighting the digital horizon.">
+  <meta name="keywords" content="branding, web design, web development, marketing campaigns, packaging, graphic assets, Harlingen TX">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -15,7 +22,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,13 +32,6 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Maundy
-  * Template URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
-  * Updated: Feb 01 2025 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -40,15 +40,14 @@
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Maundy</h1>
+        <h1 class="sitename">Faro Digital Studio</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#about">What We Do</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -65,43 +64,55 @@
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <h2>Maundy<br></h2>
-            <p>We are still working on our website. Stay tuned for updates!</p>
+            <h2>Our <span class="text-accent">New Site</span> is Coming Soon!</h2>
+            <p>Brand, web, and content—built for momentum. <br>
+              We’re polishing the experience now.</p>
           </div>
-          <div class="countdown d-flex justify-content-center" data-count="2025/12/3">
+
+          <!-- Countdown (kept original structure/classes) -->
+          <!-- Launching Oct 13, 2025 @ 12:00 AM CT => set to Oct 12, 2025 23:59 -->
+          <div class="countdown d-flex justify-content-center" data-count="2025/10/12 23:59:00">
             <div>
-              <h3 class="count-days">482</h3>
+              <h3 class="count-days">--</h3>
               <h4>Days</h4>
             </div>
             <div>
-              <h3 class="count-hours">6</h3>
+              <h3 class="count-hours">--</h3>
               <h4>Hours</h4>
             </div>
             <div>
-              <h3 class="count-minutes">49</h3>
+              <h3 class="count-minutes">--</h3>
               <h4>Minutes</h4>
             </div>
             <div>
-              <h3 class="count-seconds">21</h3>
+              <h3 class="count-seconds">--</h3>
               <h4>Seconds</h4>
             </div>
           </div>
 
+          <!-- Replace newsletter with simple CTAs (kept col/hero-newsletter wrapper) -->
           <div class="col-lg-5 hero-newsletter">
-            <p>Subscribe now to get the latest updates!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
+            <p>Want to chat or follow along?</p>
+            <div class="d-grid gap-2">
+              <a class="btn btn-primary" target="_blank" rel="noopener"
+                 href="https://calendly.com/farodigitalstudio/brand-discovery-call">
+                Free 30-minute Brand Discovery Call
+              </a>
+              <a class="btn btn-outline-secondary" target="_blank" rel="noopener"
+                 href="https://linktr.ee/farodigitalstudio">
+                Explore our links
+              </a>
+              <a class="btn btn-outline-secondary" href="mailto:discover@farodigitalstudio.com">
+                Email us
+              </a>
+            </div>
           </div>
 
           <div class="social-links">
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/faro_social" target="_blank" rel="noopener" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/people/Faro-Digital-Studio/61552805854936/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/farodigitalstudio/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://linktr.ee/farodigitalstudio" target="_blank" rel="noopener" aria-label="Linktree"><i class="bi bi-link-45deg"></i></a>
           </div>
 
         </div>
@@ -114,18 +125,17 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>What We Do</h2>
+        <p>Strategy to ship: brand, web, and content systems that move your business forward.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="row gy-5">
 
           <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi</h3>
+            <h3>Lighting the digital horizon</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              Faro partners with founders to plan, design, and launch work that performs—then iterate for momentum.
             </p>
           </div>
 
@@ -134,33 +144,32 @@
 
               <div class="col-md-6 icon-box position-relative">
                 <i class="bi bi-briefcase"></i>
-                <h4><a href="" class="stretched-link">Corporis voluptates sit</a></h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                <h4><a href="#" class="stretched-link">Business Development</a></h4>
+                <p>Go-to-market support, offers, funnels, and operations that back your brand.</p>
               </div><!-- Icon-Box -->
 
               <div class="col-md-6 icon-box position-relative">
                 <i class="bi bi-gem"></i>
-                <h4><a href="" class="stretched-link">Ullamco laboris nisi</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                <h4><a href="#" class="stretched-link">Branding & Identity</a></h4>
+                <p>Logos, guidelines, voice, and asset systems that scale across channels.</p>
               </div><!-- Icon-Box -->
 
               <div class="col-md-6 icon-box position-relative">
                 <i class="bi bi-broadcast"></i>
-                <h4><a href="" class="stretched-link">Labore consequatur</a></h4>
-                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                <h4><a href="#" class="stretched-link">Marketing Campaigns</a></h4>
+                <p>Content, social, and paid foundations to create consistent demand.</p>
               </div><!-- Icon-Box -->
 
               <div class="col-md-6 icon-box position-relative">
                 <i class="bi bi-easel"></i>
-                <h4><a href="" class="stretched-link">Beatae veritatis</a></h4>
-                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                <h4><a href="#" class="stretched-link">Web & Assets</a></h4>
+                <p>Web design & development, graphic/brand assets, packaging, and custom builds.</p>
               </div><!-- Icon-Box -->
 
             </div>
           </div>
 
         </div>
-
       </div>
 
     </section><!-- /About Section -->
@@ -171,19 +180,18 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Based in the Rio Grande Valley—working with clients anywhere.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade" data-aos-delay="100">
-
         <div class="row gy-4">
 
           <div class="col-lg-4">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Location</h3>
+                <p>Harlingen, TX</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -191,7 +199,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p><a href="tel:+19563659227">(956) 365-9227</a></p>
               </div>
             </div><!-- End Info Item -->
 
@@ -199,46 +207,37 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p><a href="mailto:discover@farodigitalstudio.com">discover@farodigitalstudio.com</a></p>
               </div>
             </div><!-- End Info Item -->
-
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
+          <!-- Replaced PHP form with action buttons; kept col & spacing -->
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-4 border rounded-3">
+              <div class="row gy-3">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <p class="mb-2">Ready to talk through your brand and site?</p>
                 </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                <div class="col-md-6 d-grid">
+                  <a class="btn btn-primary"
+                     target="_blank" rel="noopener"
+                     href="https://calendly.com/farodigitalstudio/brand-discovery-call">
+                    Free 30-minute Brand Discovery Call
+                  </a>
                 </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
+                <div class="col-md-6 d-grid">
+                  <a class="btn btn-outline-secondary"
+                     target="_blank" rel="noopener"
+                     href="https://linktr.ee/farodigitalstudio">
+                    Explore our links
+                  </a>
                 </div>
-
               </div>
-            </form>
-          </div><!-- End Contact Form -->
+            </div>
+          </div><!-- End Contact CTA Block -->
 
         </div>
-
       </div>
 
     </section><!-- /Contact Section -->
@@ -246,18 +245,14 @@
   </main>
 
   <footer id="footer" class="footer transparent-background">
-
     <div class="container">
       <div class="row gy-3">
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p></p>
+            <h4>Location</h4>
+            <p>Harlingen, TX</p>
           </div>
-
         </div>
 
         <div class="col-lg-3 col-md-6 d-flex">
@@ -265,8 +260,8 @@
           <div>
             <h4>Contact</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong>Phone:</strong> <span><a href="tel:+19563659227">(956) 365-9227</a></span><br>
+              <strong>Email:</strong> <span><a href="mailto:discover@farodigitalstudio.com">discover@farodigitalstudio.com</a></span><br>
             </p>
           </div>
         </div>
@@ -274,10 +269,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4>Status</h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong>Site:</strong> <span>Coming Soon</span><br>
+              <strong>Launch Target:</strong> <span>Oct 13, 2025 · 12:00 AM CT</span>
             </p>
           </div>
         </div>
@@ -285,10 +280,10 @@
         <div class="col-lg-3 col-md-6">
           <h4>Follow Us</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/faro_social" class="twitter" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/people/Faro-Digital-Studio/61552805854936/" class="facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/farodigitalstudio/" class="instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://linktr.ee/farodigitalstudio" class="linkedin" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
           </div>
         </div>
 
@@ -296,9 +291,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Maundy</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Faro Digital Studio</strong> <span>All Rights Reserved</span></p>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -316,5 +310,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
