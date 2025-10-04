@@ -1058,3 +1058,58 @@ body::before {
 .text-accent {
   color: #dfa566;
 }
+
+/* ==============================================================
+   Faro Theme — Sticky Header on Scroll
+   ============================================================== */
+.header.header-scrolled {
+  /* light “glass” background */
+  --background-color: rgba(255, 255, 255, 0.86);
+  background-color: var(--background-color);
+  backdrop-filter: saturate(140%) blur(6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* switch nav/link colors for readability on light bg */
+.header.header-scrolled {
+  --nav-color: #4d5d6a;           /* slate links */
+  --nav-hover-color: #dfa566;     /* gold hover */
+  --heading-color: #0f1418;       /* site name color */
+}
+
+.header.header-scrolled .logo h1 {
+  color: var(--heading-color);
+}
+
+/* mobile toggle stays readable */
+@media (max-width: 1199px) {
+  .header.header-scrolled .mobile-nav-toggle {
+    color: #4d5d6a;
+  }
+}
+
+/* ==============================================================
+   Faro Theme — Brand name color
+   ============================================================== */
+.header .logo h1 {
+  color: #4d5d6a; /* Faro Slate */
+}
+
+/* Keep it slate even after the header gains a background on scroll */
+.header.header-scrolled .logo h1 {
+  color: #4d5d6a;
+}
+
+/* ==============================================================
+   Faro Theme — Brand name color by header state
+   ============================================================== */
+
+/* Default (top of page, transparent header): white text over dark overlay */
+.header .logo h1 {
+  color: #ffffff;
+}
+
+/* After scroll (header gets light bg): switch to Faro Slate */
+.header.header-scrolled .logo h1 {
+  color: #4d5d6a; /* Faro Slate */
+}

@@ -129,4 +129,16 @@
     }, 1000);
   });
 
+  // Sticky header background toggle on scroll
+document.addEventListener('scroll', function () {
+  const header = document.getElementById('header');
+  if (!header) return;
+
+  if (window.scrollY > 10) {
+    header.classList.add('header-scrolled');
+  } else {
+    header.classList.remove('header-scrolled');
+  }
+});
+
 })();
