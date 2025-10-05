@@ -1113,3 +1113,7 @@ body::before {
 .header.header-scrolled .logo h1 {
   color: #4d5d6a; /* Faro Slate */
 }
+
+/* Make the section subtitle a touch bigger */
+.lead-subtitle { font-size: 1.15rem; font-weight: 600; }
+@media (min-width: 992px) { .lead-subtitle { font-size: 1.25rem; } }
