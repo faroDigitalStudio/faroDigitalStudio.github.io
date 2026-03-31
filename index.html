@@ -1,21 +1,20 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <!--
   File: index.html
-  Project: Faro website | Coming Soon
-  Created: 09.25.2025 
-  Updated: 03.01.2026
+  Project: Faro Digital Studio
+  Created: 03.29.2026
+  Updated: 03.30.2026
   Author: Faro Digital Studio
 -->
-
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Faro Digital Studio - Coming Soon</title>
-  <meta name="description" content="Branding, web, and content systems for founders who want momentum. Faro Digital Studio - Lighting the digital horizon.">
-  <meta name="keywords" content="branding, web design, web development, marketing campaigns, packaging, graphic assets, Harlingen TX">
+  <title>Faro Digital Studio | Branding, Web Design & Development in the RGV, TX</title>
+  <meta name="description" content="Faro Digital Studio builds brands, websites, and digital systems for businesses that want a sharper web presence and a clearer path to growth.">
+  <meta name="keywords" content="Faro Digital Studio, RGV TX web design, branding studio, web development, graphic design, social media marketing, small business websites, South Texas web design">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -24,12 +23,14 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -40,29 +41,32 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-MSD6Y5PPEX');
   </script>
-
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center px-3 fixed-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/logo.png" alt="Faro Digital Studio logo">
         <h1 class="sitename">Faro Digital Studio</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">What We Do</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
+      <a class="btn-getstarted" href="https://calendly.com/farodigitalstudio/brand-discovery-call" target="_blank" rel="noopener">Book a Call</a>
 
     </div>
   </header>
@@ -70,168 +74,637 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section transparent-background">
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 content-col" data-aos="fade-up">
+            <div class="content">
+              <div class="main-heading">
+                <h1>WEBSITES THAT WORK</h1>
+              </div>
 
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Our <span class="text-accent">New Site</span> is Coming Soon!</h2>
-            <p>Brand, web, and content, built for momentum.<br>
-              We’re polishing the experience now.</p>
-          </div>
+              <div class="divider"></div>
 
-          <!-- Countdown -->
-          <!-- Launching Jan 1, 2026 @ 12:00 AM CT -->
-          <div class="countdown d-flex justify-content-center" data-count="2026/4/01 00:00:00">
-            <div>
-              <h3 class="count-days">--</h3>
-              <h4>Days</h4>
-            </div>
-            <div>
-              <h3 class="count-hours">--</h3>
-              <h4>Hours</h4>
-            </div>
-            <div>
-              <h3 class="count-minutes">--</h3>
-              <h4>Minutes</h4>
-            </div>
-            <div>
-              <h3 class="count-seconds">--</h3>
-              <h4>Seconds</h4>
+              <div class="description">
+                <p>We build sharper <span class="text-accent">branding</span>, cleaner <span class="text-accent">websites</span>, and clearer <span class="text-accent">customer paths</span> for brands that want to show up with <span class="text-accent">clarity</span> and <span class="text-accent">momentum</span>.</p>
+              </div>
+
+              <div class="cta-button d-flex flex-wrap gap-3">
+                <a href="https://calendly.com/farodigitalstudio/brand-discovery-call" class="btn" target="_blank" rel="noopener">
+                  <span>BOOK A DISCOVERY CALL</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="#pricing" class="btn hero-secondary-btn">
+                  <span>SEE PACKAGES</span>
+                </a>
+              </div>
             </div>
           </div>
 
-          <!-- CTAs -->
-          <div class="col-lg-5 hero-newsletter">
-            <p>Want to chat or follow along?</p>
-            <div class="d-grid gap-2">
-              <a class="btn btn-primary" target="_blank" rel="noopener"
-                 href="https://calendly.com/farodigitalstudio/brand-discovery-call">
-                Free 30-minute Brand Discovery Call
-              </a>
-              <a class="btn btn-outline-secondary" target="_blank" rel="noopener"
-                 href="https://linktr.ee/farodigitalstudio">
-                Explore our links
-              </a>
-              <a class="btn btn-outline-secondary" href="mailto:discover@farodigitalstudio.com">
-                Email us
-              </a>
+          <div class="col-lg-6" data-aos="zoom-out">
+            <div class="visual-content">
+              <div class="hero-visual-wrapper">
+                <img src="assets/img/hero.png" alt="Lighthouse guiding through rough water" class="hero-base-img">
+                <img src="assets/img/heroOverlay.png" alt="" aria-hidden="true" class="hero-overlay-img">
+              </div>
             </div>
           </div>
-
-          <!-- Socials (trimmed Linktree icon to avoid redundancy) -->
-          <div class="social-links">
-            <a href="https://x.com/faro_social" target="_blank" rel="noopener" aria-label="X"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/estudiodelfaro/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/farodigitalstudio/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          </div>
-
         </div>
       </div>
-
-    </section><!-- /Hero Section -->
+    </section>
 
     <!-- About Section -->
-    <section id="about" class="about section transparent-background">
-
-      <!-- Section Title -->
+    <section id="about" class="about section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>What We Do</h2>
-        <p class="lead-subtitle">Strategy to ship, brand, web, and content systems that move your business forward.</p>
-      </div><!-- End Section Title -->
+        <h2>About</h2>
+        <div><span>More than a brochure.</span> <span class="description-title">A site that does its job.</span></div>
+      </div>
 
       <div class="container">
-        <div class="row gy-5">
-
-          <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
-            <h3><span class="text-accent">Lighting</span> the digital horizon</h3>
-            <p>
-              Faro partners with founders to plan, design, and launch work that performs, then iterate for momentum.
-            </p>
+        <div class="row gx-5 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+            <div class="about-image position-relative">
+              <img src="assets/img/about.png" class="img-fluid rounded-4 shadow-sm" alt="Creative planning and web strategy" loading="lazy">
+            </div>
           </div>
 
-          <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-4">
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="250">
+            <div class="about-content">
+              <h2>Earn trust before the first conversation even starts.</h2>
+              <p class="lead">A strong website should build trust fast, explain the offer clearly, and make the next step feel easy.</p>
+              <p>That means sharper <span class="text-accent">messaging</span>, better <span class="text-accent">structure</span>, and stronger <span class="text-accent">design</span> from the first click to the first inquiry.</p>
 
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-briefcase"></i>
-                <h4><a href="#" class="stretched-link">Business Development</a></h4>
-                <p>Go-to-market support, offers, funnels, and operations that back your brand.</p>
-              </div><!-- Icon-Box -->
+              <div class="row g-4 mt-3">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <h5>Clear positioning</h5>
+                    <p>Say the right thing, show the right value, and help the right customer understand it faster.</p>
+                  </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="425">
+                  <div class="feature-item">
+                    <i class="bi bi-lightbulb-fill"></i>
+                    <h5>Credible execution</h5>
+                    <p>Clean visuals, smart structure, and a web presence that feels current without feeling overbuilt.</p>
+                  </div>
+                </div>
+              </div>
 
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-gem"></i>
-                <h4><a href="#" class="stretched-link">Branding & Identity</a></h4>
-                <p>Logos, guidelines, voice, and asset systems that scale across channels.</p>
-              </div><!-- Icon-Box -->
-
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-broadcast"></i>
-                <h4><a href="#" class="stretched-link">Marketing Campaigns</a></h4>
-                <p>Content, social, and paid foundations to create consistent demand.</p>
-              </div><!-- Icon-Box -->
-
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-easel"></i>
-                <h4><a href="#" class="stretched-link">Web & Assets</a></h4>
-                <p>Web design and development, graphic and brand assets, packaging, and custom builds.</p>
-              </div><!-- Icon-Box -->
-
+              <div class="text-center mt-4">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <div><span>What we build.</span> <span class="description-title">What we support.</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-header">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="service-intro">
+                <h2 class="service-heading">Brand systems, websites, and ongoing digital support</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="service-summary">
+                <p>Clear offers. Clean design.</p>
+                <a href="https://calendly.com/farodigitalstudio/brand-discovery-call" class="service-btn" target="_blank" rel="noopener">
+                  Book Discovery Call
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-palette"></i>
+              </div>
+              <h3>Brand <span>identity</span></h3>
+              <p>Logo refinement, visual direction, typography, color systems, and foundational assets that make the business look consistent and credible.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="175">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h3>Website <span>design &amp; development</span></h3>
+              <p>Focused landing pages, brochure sites, growth sites, and custom builds designed to be clean, fast, and aligned with the brand.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-easel2"></i>
+              </div>
+              <h3>Graphic <span>assets</span></h3>
+              <p>Social graphics, promotional visuals, and supporting collateral that extend the brand beyond the website.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <h3>Content &amp; <span>social support</span></h3>
+              <p>Light social support, campaign direction, and content systems for businesses that need more consistency online.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="175">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-diagram-3"></i>
+              </div>
+              <h3>Offer &amp; <span>funnel support</span></h3>
+              <p>Offer framing, inquiry flow, digital organization, and practical help for businesses tightening up how they convert attention into action.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-boxes"></i>
+              </div>
+              <h3>Custom <span>builds</span></h3>
+              <p>When the work needs more depth, more flexibility, or more functionality, we scope a build around what actually fits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="steps section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Process</h2>
+        <div><span>How the work moves.</span> <span class="description-title">Clear and efficient.</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="steps-wrapper">
+          <div class="step-item" data-aos="fade-right" data-aos-delay="150">
+            <div class="step-content">
+              <div class="step-icon"><i class="bi bi-search"></i></div>
+              <div class="step-info">
+                <span class="step-number">Step 01</span>
+                <h3>Discovery</h3>
+                <p>We get clear on the business, the audience, the offer, and what the site actually needs to do.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step-item" data-aos="fade-left" data-aos-delay="225">
+            <div class="step-content">
+              <div class="step-icon"><i class="bi bi-vector-pen"></i></div>
+              <div class="step-info">
+                <span class="step-number">Step 02</span>
+                <h3>Direction</h3>
+                <p>We shape the message, structure the pages, and lock in a visual direction that fits the brand.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step-item" data-aos="fade-right" data-aos-delay="300">
+            <div class="step-content">
+              <div class="step-icon"><i class="bi bi-code-square"></i></div>
+              <div class="step-info">
+                <span class="step-number">Step 03</span>
+                <h3>Build</h3>
+                <p>We design, develop, refine, and tighten the experience so it is ready to go live with confidence.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step-item" data-aos="fade-left" data-aos-delay="375">
+            <div class="step-content">
+              <div class="step-icon"><i class="bi bi-rocket-takeoff"></i></div>
+              <div class="step-info">
+                <span class="step-number">Step 04</span>
+                <h3>Launch</h3>
+                <p>We connect the pieces, publish cleanly, and keep support simple so the site can keep working after launch.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="call-to-action" class="call-to-action section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="advertise-1 d-flex flex-column flex-lg-row gap-4 align-items-center position-relative">
+          <div class="content-left flex-grow-1" data-aos="fade-right" data-aos-delay="175">
+            <span class="badge text-uppercase mb-2">Lighting the digital horizon</span>
+            <h2>You do not need an enterprise build to look sharp online.</h2>
+            <p class="my-4">A clean <span class="text-accent">brand</span>, clear <span class="text-accent">messaging</span>, and a focused <span class="text-accent">website</span> can do a lot of heavy lifting for a local business or founder-led brand. Brand, web, and content, built for momentum.</p>
+
+            <div class="features d-flex flex-wrap gap-3 mb-4">
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Founder-friendly process</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Modern, credible design</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Room to scale later</span>
+              </div>
+            </div>
+
+            <div class="cta-buttons d-flex flex-wrap gap-3">
+              <a href="https://calendly.com/farodigitalstudio/brand-discovery-call" class="btn btn-primary" target="_blank" rel="noopener">Book a Free Call</a>
+              <a href="#portfolio" class="btn btn-outline">See Recent Work</a>
+            </div>
+          </div>
+
+          <div class="content-right position-relative" data-aos="fade-left" data-aos-delay="250">
+            <img src="assets/img/digitalHorizon.png" alt="Creative digital planning" class="img-fluid rounded-4">
+          </div>
+
+          <div class="decoration">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <div><span>Selected work.</span> <span class="description-title">Different industries. Same standard.</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 justify-content-center portfolio-grid">
+
+          <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/portfolio/ledgerandflow-desktop.jpg" class="img-fluid" alt="Ledger and Flow website screenshot" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Finance &amp; bookkeeping</div>
+                    <h3 class="entry-title">Ledger &amp; Flow</h3>
+                    <p class="entry-desc">Clean financial brand + service site</p>
+                    <div class="entry-links">
+                      <a class="entry-cta" href="https://ledgerandflow.com" target="_blank" rel="noopener">
+                        <span>Visit Site</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry-border"></div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/portfolio/thergvnotary-desktop.jpg" class="img-fluid" alt="The RGV Notary website screenshot" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Local service business</div>
+                    <h3 class="entry-title">The RGV Notary</h3>
+                    <p class="entry-desc">Local-first lead generation site</p>
+                    <div class="entry-links">
+                      <a class="entry-cta" href="https://thergvnotary.com" target="_blank" rel="noopener">
+                        <span>Visit Site</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry-border"></div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/portfolio/thehyphalknot-desktop.jpg" class="img-fluid" alt="The Hyphal Knot website screenshot" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Podcast &amp; media</div>
+                    <h3 class="entry-title">The Hyphal Knot</h3>
+                    <p class="entry-desc">Brand + media platform build</p>
+                    <div class="entry-links">
+                      <a class="entry-cta" href="https://thehyphalknot.com" target="_blank" rel="noopener">
+                        <span>Visit Site</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry-border"></div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/portfolio/hyphalhealth-desktop.jpg" class="img-fluid" alt="Hyphal Health website screenshot" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Wellness &amp; product brand</div>
+                    <h3 class="entry-title">Hyphal Health</h3>
+                    <p class="entry-desc">Ecommerce-ready brand site</p>
+                    <div class="entry-links">
+                      <a class="entry-cta" href="https://hyphalhealth.com" target="_blank" rel="noopener">
+                        <span>Visit Site</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry-border"></div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="assets/img/portfolio/erosphotos-desktop.jpg" class="img-fluid" alt="Eros Photos website screenshot" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Creative &amp; photography</div>
+                    <h3 class="entry-title">Eros Photos</h3>
+                    <p class="entry-desc">Visual-first portfolio experience</p>
+                    <div class="entry-links">
+                      <a class="entry-cta" href="https://erosphotos.com" target="_blank" rel="noopener">
+                        <span>Visit Site</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry-border"></div>
+              </figure>
+            </article>
           </div>
 
         </div>
       </div>
+    </section>
 
-    </section><!-- /About Section -->
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <div><span>Two clear starting points.</span> <span class="description-title">Same ongoing care.</span></div>
+      </div>
 
-    <!-- Contact Section removed per request -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-card">
+              <div class="plan-header">
+                <div class="plan-icon"><i class="bi bi-window"></i></div>
+                <h3>Base Site</h3>
+                <p>A focused static site for service businesses that need a clean web presence without custom backend complexity.</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">999</span>
+                  <span class="period">initial build</span>
+                </div>
+                <div class="pricing-recurring">$499/year after launch for hosting, routine care, and light updates.</div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> 1 to 3 page static marketing site</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Mobile-first layout with a focused call, form, or inquiry funnel</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Domain connection, hosting, analytics setup, and launch support</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Core SEO setup, quarterly analytics summaries, and 1 minor content update per year</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Best for restaurants, clinics, contractors, and straightforward local brands</li>
+                  <li class="disabled"><i class="bi bi-x-circle-fill"></i> No user logins, dashboards, storage-heavy features, or custom app logic</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="175">
+            <div class="pricing-card popular">
+              <div class="popular-tag">Recommended</div>
+              <div class="plan-header">
+                <div class="plan-icon"><i class="bi bi-shop"></i></div>
+                <h3>Growth Site</h3>
+                <p>A more strategic multi-page site with stronger messaging, broader content depth, and more room to showcase the business.</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">1999</span>
+                  <span class="period">initial build</span>
+                </div>
+                <div class="pricing-recurring">$499/year after launch for hosting, routine care, and light updates.</div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> 4 to 8 page marketing site with deeper service and credibility content</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Messaging refinement, page strategy, and stronger inquiry flow</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Branding refinement support, graphic assets, and cross-platform consistency</li>
+                  <li><i class="bi bi-check-circle-fill"></i> SEO and keyword optimization, monthly analytics summaries, and 3 minor edits per year</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Better fit for established businesses ready to level up their presence</li>
+                  <li class="disabled"><i class="bi bi-x-circle-fill"></i> No member portals, storage-heavy systems, or complex custom infrastructure</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="250">
+            <div class="pricing-card">
+              <div class="plan-header">
+                <div class="plan-icon"><i class="bi bi-building"></i></div>
+                <h3>Custom Build</h3>
+                <p>For portals, accounts, advanced integrations, higher-throughput needs, or functionality that goes beyond a marketing site.</p>
+              </div>
+              <div class="plan-pricing">
+                <div class="price">
+                  <span class="amount">Custom</span>
+                </div>
+                <div class="pricing-recurring">Scoped to the features, infrastructure, and support the build actually requires.</div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Custom scoping around functionality, integrations, and workflow needs</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Account systems, portals, custom logic, and heavier data requirements</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Architecture decisions based on performance, maintenance, and scale</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Brand, web, and support blended into one deeper engagement</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Ongoing creative or technical partnership options where needed</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div><span>Ready when you are.</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 mb-5">
+
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="250">
+            <div class="col-lg-10">
+              <div class="contact-form-wrapper text-center">
+                <h2 class="mb-4">Start with a discovery call</h2>
+                <p class="mb-4">The cleanest next step is a short conversation about the business, the current web presence, and what kind of site or support actually makes sense right now.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                  <a href="https://calendly.com/farodigitalstudio/brand-discovery-call" class="btn btn-primary btn-submit" target="_blank" rel="noopener">BOOK A CALL</a>
+                  <a href="mailto:discover@farodigitalstudio.com" class="btn btn-submit">EMAIL</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="info-content">
+                <h4>Location</h4>
+                <p>Harlingen, Texas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="175">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h4>Email</h4>
+                <p>discover@farodigitalstudio.com</p>
+                <p>Response times vary by project load</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-calendar-event"></i>
+              </div>
+              <div class="info-content">
+                <h4>Best first step</h4>
+                <p>Book a brand discovery call</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-9 faq section" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5" data-aos="fade-up">
+            <h2 class="faq-title">Questions people usually ask first</h2>
+            <p class="faq-description">A few quick answers to help frame the right next step.</p>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-container">
+
+              <div class="faq-item">
+                <h3>Do you handle hosting and domain setup?</h3>
+                <div class="faq-content">
+                  <p>Yes. Hosting, domain connection, analytics, and launch setup can all be handled so you are not piecing together the technical side alone.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>Do I own the website and code?</h3>
+                <div class="faq-content">
+                  <p>Yes. We build in HTML, CSS, and JavaScript, and if you want the site files, we provide them. No gatekeeping.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>What kind of business is the Base Site best for?</h3>
+                <div class="faq-content">
+                  <p>It is a strong fit for restaurants, clinics, contractors, and service businesses that need a clean static site with a straightforward inquiry path.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3>When do I need a custom build?</h3>
+                <div class="faq-content">
+                  <p>If the site needs user logins, dashboards, storage-heavy functionality, advanced integrations, or custom logic, that usually belongs in a custom scope.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
-  <footer id="footer" class="footer transparent-background">
-    <div class="container">
-      <div class="row gy-3">
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-geo-alt icon"></i>
-          <div class="address">
-            <h4>Location</h4>
-            <p>Harlingen, TX</p>
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="Faro Digital Studio logo">
+            <span class="sitename">Faro Digital Studio</span>
+          </a>
+          <p>Brand, web, and content, built for momentum.</p>
+          <p class="footer-note">Built in HTML, CSS, and JavaScript. If you want the site files, they’re yours.</p>
+          <div class="social-links d-flex mt-3">
+            <a href="https://x.com/faro_social" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/estudiodelfaro/" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/farodigitalstudio/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://linktr.ee/farodigitalstudio" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-telephone icon"></i>
-          <div>
-            <h4>Contact</h4>
-            <p>
-              <strong>Phone:</strong> <span><a href="tel:+19563659227">(956) 365-9227</a></span><br>
-              <strong>Email:</strong> <span><a href="mailto:discover@farodigitalstudio.com">discover@farodigitalstudio.com</a></span><br>
-            </p>
-          </div>
+        <div class="col-lg-5 footer-contact text-lg-end text-start">
+          <p><strong>Email:</strong> <a href="mailto:discover@farodigitalstudio.com">discover@farodigitalstudio.com</a></p>
+          <p><strong>Location:</strong> Harlingen, TX</p>
         </div>
-
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-clock icon"></i>
-          <div>
-            <h4>Status</h4>
-            <p>
-              <strong>Site:</strong> <span>Coming Soon</span><br>
-              <strong>Launch Target:</strong> <span>April 2026</span>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
-          <div class="social-links d-flex">
-            <a href="https://x.com/faro_social" class="twitter" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/estudiodelfaro/" class="facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/farodigitalstudio/" class="instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
-            <a href="https://linktr.ee/farodigitalstudio" class="linkedin" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-
       </div>
     </div>
 
@@ -248,7 +721,12 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

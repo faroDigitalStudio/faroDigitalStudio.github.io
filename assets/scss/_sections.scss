@@ -8,7 +8,6 @@ section,
   padding: 60px 0;
   scroll-margin-top: 90px;
   overflow: clip;
-  position: relative;
 }
 
 @media (max-width: 1199px) {
@@ -23,36 +22,52 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  text-align: center;
   padding-bottom: 60px;
   position: relative;
 
   h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
     position: relative;
 
-    &:after {
-      content: '';
-      position: absolute;
-      display: block;
-      width: 50px;
-      height: 3px;
+    &::after {
+      content: "";
+      width: 120px;
+      height: 1px;
+      display: inline-block;
       background: var(--accent-color);
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
+      margin: 4px 10px;
     }
   }
 
-  p {
-    margin-bottom: 0;
+  div {
+    color: var(--heading-color);
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--heading-font);
   }
 }
 
 @import './sections/_hero.scss';
 @import './sections/_about.scss';
+@import './sections/_services.scss';
+@import './sections/_steps.scss';
+@import './sections/_call-to-action.scss';
+@import './sections/_testimonials.scss';
+@import './sections/_portfolio.scss';
+@import './sections/_team.scss';
+@import './sections/_pricing.scss';
+@import './sections/_faq.scss';
 @import './sections/_contact.scss';
+@import './sections/_portfolio-details.scss';
+@import './sections/_service-details.scss';
+@import './sections/_starter-section.scss';
